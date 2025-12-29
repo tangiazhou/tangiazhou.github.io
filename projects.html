@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="education.html">Education</a>
+  <a href="experience.html">Experience</a>
+  <a href="projects.html" class="active">Projects</a>
+  <a href="personal.html">Personal</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h2>Projects</h2>
+
+<div class="project-item">
+  <div class="project-image" style="background-image: url('assets/images/projects/airplay_instruments.png');">
+    <div class="project-overlay">
+      <h3>AirPlay Instruments</h3>
+    </div>
+  </div>
+  <div class="project-content">
+    <p>Apr 2024 – Apr 2025</p>
+    <p>
+        AirPlay Instruments introduces an innovative, software-based solution for music production, leveraging computer vision and gesture recognition to replace traditional MIDI controllers. 
+        Designed for musicians, producers and beginners in music, the system allows users to interact with DAWs through natural hand movements, eliminating the need for external hardware.
+    </p>
+    <p>
+        The system is built on a modular architecture, combining a Swift-based frontend and a Python-based backend for gesture recognition and MIDI signal generation. 
+        Key technologies include MediaPipe for gesture detection, OpenCV for image processing, and Mido for MIDI integration.
+    </p>
+  </div>
+</div>
+
+<div class="project-item">
+  <div class="project-image" style="background-image: url('assets/images/projects/miu.png');">
+    <div class="project-overlay">
+      <h3>Melody Improvisation Unit (MIU or µ)</h3>
+    </div>
+  </div>
+  <div class="project-content">
+    <p>Sept 2022 – Dec 2022</p>
+    <p>
+        As the world becomes more reliant on technology, many industries have began an integration of automation into their products. 
+        The Melody Improvisation Unit (MIU or μ), serves to improve the music industry’s ability to create new music by improvising a melody with variations in pitches and rhythms based on a series of input chords. MIU is a product that is inspired by a musician’s ability to improvise over a set of chords. 
+        It attempts to simulate a musician’s musical intuitions when creating a line of melody. 
+    </p>
+    <p>
+        This project leverages FFT principles to analyze an input sequence of chords by extracting the dominant frequencies from each segment. 
+        These frequencies are organized into a matrix, where each vector corresponds to the size of the input chord sequence. 
+        A pure tone generator then assigns note durations to the frequencies based on the timing of their respective segments. 
+        The resulting pure tones are compiled into a vector and appended to the original chord progression, creating a new melody. 
+        To transform the MIU algorithm into a portable and marketable product, a Raspberry Pi 3 is utilized to execute the algorithm and output the generated melody through a speaker.
+    </p>
+  </div>
+</div>
+
+<footer>
+© 2025 Tangia Zhou
+</footer>
+
+</body>
+</html>
