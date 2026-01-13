@@ -12,6 +12,7 @@ body {
   color: #222;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 
